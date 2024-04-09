@@ -35,5 +35,7 @@ int main(void)
 
 	printf("%d %d", min, max);
 
+    free(arr);
+
 	return 0;
 }
