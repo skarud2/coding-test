@@ -16,20 +16,17 @@ for i in range(y):
     for j in range(x):
         if box[i][j]==1:
             one.append((i,j,0))
-        if box[i][j]==-1:
+        elif box[i][j]==-1:
             empty+=1
-        if box[i][j]==-1:
+        else:
             zero+=1
 
-if zero==x*y:
-    print(-1)
-    exit()
 
-if len(one)==x*y:   #1이 하나도 없을 때
+if len(one)==x*y:   #다 1일 때 (이미 다 익은 상태)
     print(0)
     exit()
-
-if empty==x*y:   #다 -1일 때
+    
+if zero==x*y or empty==x*y:   #다 -1일 때
     print(-1)
     exit()
 
