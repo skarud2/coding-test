@@ -1,2 +1,5 @@
 # CodingTest
-This is an auto push repository for Baekjoon Online Judge created with [BaekjoonHub](https://github.com/BaekjoonHub/BaekjoonHub).
+
+## 📁 디렉토리 구조
+
+- **[`notes-python`](./notes-python)**: 파이썬 문법 정리
