@@ -1,3 +1,3 @@
 ## CodingTest
 
-- **[`notes-python`](./notes-python)**: 파이썬 문법 정리
+- **[`notes-python`](./notes-python)**: 파이썬 정리
